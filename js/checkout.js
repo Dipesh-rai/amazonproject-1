@@ -13,7 +13,7 @@ cart.forEach((cartItem) => {
         if (product.id === productId) {
             matchingProduct = product;
         }
-    })
+    });
 
     cartSummaryHTML += `
      <div class="cart-item-container" id="js-car-item-container-${matchingProduct.id}">
